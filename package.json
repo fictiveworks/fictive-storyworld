@@ -18,6 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^20.11.10",
+    "inflected": "^2.1.0",
     "inkjs": "^2.2.0",
     "inklecate": "^1.8.1"
   },
