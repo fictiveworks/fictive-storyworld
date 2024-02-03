@@ -1,7 +1,7 @@
 {
   "name": "@fictive/storyworld",
-  "version": "0.0.2",
-  "description": "Storyworld content compiler",
+  "version": "0.0.3",
+  "description": "A content compiler for storyworlds and game engine pipelines.",
   "main": "./lib/cjs/storyworld.js",
   "module": "./lib/esm/storyworld.js",
   "files": [
