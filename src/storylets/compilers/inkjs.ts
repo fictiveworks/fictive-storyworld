@@ -1,12 +1,12 @@
-import { Story, Compiler } from "inkjs";
+import Ink from "@shepard4711/inkjs";
 import { InkJsonBytecode } from "../compiler";
 
-type InkStory = InstanceType<typeof Story>;
-type InkCompiler = InstanceType<typeof Compiler>;
+type InkStory = InstanceType<typeof Ink.Story>;
+type InkCompiler = InstanceType<typeof Ink.Compiler>;
 
 class InkjsCompiler {
   compileSync(source : string) : InkJsonBytecode {
-    const compiler : InkCompiler = new Compiler(source);
+    const compiler : InkCompiler = new Ink.Compiler(source);
     const story : InkStory = compiler.Compile();
     return story.ToJson() || "{}";
   }

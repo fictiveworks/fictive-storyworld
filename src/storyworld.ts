@@ -30,7 +30,7 @@ function collectObjects(definition : Definition, settings: Settings) {
 async function collect(definition : Definition, settings : Settings) : Promise<Bundle> {
   const objectsAll = await globAsync(`${settings.worldDir}/**/*.json`);
   
-  return objectsAll.reduce((bundle, objectPath) : Bundle => {
+  return objectsAll.reduce((bundle : Bundle, objectPath : string) : Bundle => {
     const objectId = basename(objectPath, '.json');
     if (objectId == basename(dirname(objectPath))) {
       if (objectPath.startsWith(`${settings.worldDir}/levels`)) {

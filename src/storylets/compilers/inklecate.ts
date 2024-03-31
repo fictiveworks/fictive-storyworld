@@ -1,3 +1,4 @@
+import "./inklecate.d";
 import ink from "inklecate";
 import { LocalFileSource, InkJsonBytecode } from "../compiler";
 

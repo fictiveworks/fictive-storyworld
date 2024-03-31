@@ -6,7 +6,9 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./lib/esm"
+    "outDir": "./lib/esm",
+    "moduleResolution": "node",
+    "lib": ["ES2021.String"]
   },
   "include": [
     "./src/**/*"

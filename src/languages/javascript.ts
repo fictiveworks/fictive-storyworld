@@ -20,7 +20,7 @@ class JavascriptStaticMethod extends JavascriptCodeUnit {
     return `${this.writeIndent(1)}static ${this.methodName}() {`;
   }
 
-  writeBody(body) : any {
+  writeBody(body : any) : any {
     return body;
   }
 
