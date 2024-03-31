@@ -1,6 +1,6 @@
 {
   "name": "@fictive/storyworld",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A content compiler for integrating narrative systems with game engine pipelines.",
   "main": "./lib/cjs/storyworld.js",
   "module": "./lib/esm/storyworld.js",
@@ -11,6 +11,7 @@
     "compile:esm": "tsc -p .tsconfig.esm.json",
     "compile:cjs": "tsc -p .tsconfig.cjs.json",
     "compile": "npm run compile:esm && npm run compile:cjs",
+    "prepublishOnly": "npm run compile",
     "test": "vitest",
     "mac:inklecate:exec": "chmod 755 ./node_modules/inklecate/bin/inklecate"
   },
