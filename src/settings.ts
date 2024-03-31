@@ -1,8 +1,12 @@
-class Settings {
-  version : string;
+const DefaultWorldFile = "world.json";
 
-  constructor() {
-    this.version = "0.0.2";
+class Settings {
+  readonly worldDir : string;
+  readonly worldFile : string;
+
+  constructor(worldDir : string, worldFile?: string) {
+    this.worldDir = worldDir;
+    this.worldFile = worldFile ? worldFile : DefaultWorldFile;
   }
 }
 
