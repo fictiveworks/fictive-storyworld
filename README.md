@@ -1,6 +1,6 @@
 # Fictive: Storyworld
 
-A content compiler for storyworlds and game engine pipelines.
+A content compiler for integrating narrative systems with game engine pipelines.
 
 ## License
 

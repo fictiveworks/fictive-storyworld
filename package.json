@@ -1,7 +1,7 @@
 {
   "name": "@fictive/storyworld",
-  "version": "0.0.3",
-  "description": "A content compiler for storyworlds and game engine pipelines.",
+  "version": "0.0.4",
+  "description": "A content compiler for integrating narrative systems with game engine pipelines.",
   "main": "./lib/cjs/storyworld.js",
   "module": "./lib/esm/storyworld.js",
   "files": [
@@ -18,6 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^20.11.10",
+    "glob-promise": "^6.0.5",
     "inflected": "^2.1.0",
     "inkjs": "^2.2.0",
     "inklecate": "^1.8.1"
