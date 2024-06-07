@@ -18,11 +18,10 @@
   "author": "Mark Rickerby <me@maetl.net> (https://maetl.net/)",
   "license": "MIT",
   "dependencies": {
-    "@shepard4711/inkjs": "^2.2.2",
     "@types/node": "^20.11.10",
     "glob-promise": "^6.0.5",
     "inflected": "^2.1.0",
-    "inkjs": "^2.2.2",
+    "inkjs": "github:y-lohse/inkjs",
     "inklecate": "^1.8.1"
   },
   "devDependencies": {

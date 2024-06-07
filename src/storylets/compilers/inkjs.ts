@@ -1,4 +1,4 @@
-import Ink from "@shepard4711/inkjs";
+import Ink from "inkjs";
 import { InkJsonBytecode } from "../compiler";
 
 type InkStory = InstanceType<typeof Ink.Story>;
