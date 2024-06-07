@@ -22,7 +22,8 @@
     "glob-promise": "^6.0.5",
     "inflected": "^2.1.0",
     "inkjs": "github:y-lohse/inkjs",
-    "inklecate": "^1.8.1"
+    "inklecate": "^1.8.1",
+    "jimp": "^0.22.12"
   },
   "devDependencies": {
     "@types/inflected": "^2.1.3",
