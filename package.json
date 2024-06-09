@@ -2,6 +2,7 @@
   "name": "@fictive/storyworld",
   "version": "0.0.5",
   "description": "A content compiler for integrating narrative systems with game engine pipelines.",
+  "type": "module",
   "main": "./lib/cjs/storyworld.js",
   "module": "./lib/esm/storyworld.js",
   "files": [
@@ -23,7 +24,8 @@
     "inflected": "^2.1.0",
     "inkjs": "github:y-lohse/inkjs",
     "inklecate": "^1.8.1",
-    "jimp": "^0.22.12"
+    "jimp": "^0.22.12",
+    "prompts": "^2.4.2"
   },
   "devDependencies": {
     "@types/inflected": "^2.1.3",

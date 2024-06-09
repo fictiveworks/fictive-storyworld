@@ -1,0 +1,11 @@
+   ___ _ 
+  / __(_)
+ / _\ | |
+/ /   | |
+\/    |_|
+@fictive/storyworld
+https://npmjs.com/package/@fictive/storyworld
+
+An asset pipeline architecture for integrating narrative systems with game engines.
+
+Run `storyworld-project help` for available commands.

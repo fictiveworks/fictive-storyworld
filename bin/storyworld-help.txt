@@ -1,0 +1,16 @@
+@fictive/storyworld
+
+An asset pipeline architecture for integrating narrative systems with game engines.
+
+Available commands
+------------------
+
+init    - initialize a new project
+compile - generate game-ready assets
+help    - you’re looking at it
+
+Examples
+--------
+
+> storyworld-project init unity  # Start new Unity project
+> storyworld-project compile     # Generate assets in existing project
